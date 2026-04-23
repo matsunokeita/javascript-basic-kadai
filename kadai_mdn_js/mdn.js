@@ -4,7 +4,7 @@ function getToday() {
   const month = now.getMonth() +1;
   const day = now.getDate();
 
-  return `${year}-${month}-${day}`;
+  return `${year}年${month}月${day}日`;
 }
 
 console.log(getToday());
