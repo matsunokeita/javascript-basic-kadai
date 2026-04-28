@@ -5,3 +5,4 @@ let bmi;
 bmi = weight/(height*height);
 
 console.log (bmi);
+console.log (height);
